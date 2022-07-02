@@ -1,0 +1,24 @@
+name: TicTacToe
+version: '${project.version}'
+main: tictactoe.minecraft.minecrafttictactoe.TicTacToe
+api-version: 1.19
+timeout-time: 10000
+commands:
+  challenge:
+    description: challenge a player with a tic tac toe game
+    usage: /<command>
+  put:
+    description: put the place in to the table
+    usage: /<command>
+  save:
+    description: save the unfinished game
+    usage: /<command>
+  load:
+    description: load the previously saved game if existed
+    usage: /<command>
+  accept:
+    description: start the game when second player accept it
+    usage: /<command>
+  deny:
+    description: deny the challenge request
+    usage: /<command>
